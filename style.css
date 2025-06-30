@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .container {
     width: 100%;
     height: 100vh;
@@ -37,7 +41,22 @@
 .login input[type = "text"], .login input[type = "password"] {
     display: block;
     background: none;
-    border: none;
+    outline: none;
+    color: white;
+    text-align: center;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
+
+.login input[type = "text"]::placeholder, .login input[type = "password"]::placeholder {
+    color: #999999;
+}
+
+.login input[type = "submit"] {
+    display: block;
+    background: none;
     outline: none;
     color: white;
     text-align: center;
