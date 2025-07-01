@@ -66,3 +66,10 @@ body {
 .login input[type = "submit"]:active{
     transform: scale(0.9);
 }
+
+.error-message {
+    color: red;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 14px;
+}
