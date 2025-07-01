@@ -35,6 +35,12 @@ body {
     padding: 20px;
 }
 
+.login p {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+}
+
 .login input[type = "text"], .login input[type = "password"] {
     display: block;
     background: none;
